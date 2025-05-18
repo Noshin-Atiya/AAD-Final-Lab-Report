@@ -10,6 +10,7 @@ public class HCPmain {
 		int n = 6;
 		char[]c= {'a','c','e','m','u','z'};
 		int[]data = {100,53,133,60,44,8};
+		String[] s = {"000","001","0100","0101","0110","0111","1000","1001","1010","1011"};
 
 		PriorityQueue<huffmanNode> q = new PriorityQueue<huffmanNode>(n, new HCPcomparator());
 

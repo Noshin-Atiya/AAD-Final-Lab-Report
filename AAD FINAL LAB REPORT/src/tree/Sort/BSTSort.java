@@ -29,7 +29,7 @@ public class BSTSort {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter how many node:");
+		System.out.print("Enter how many node:");
 		int n=sc.nextInt();
 		BSTNode root=null;
 		System.out.print("Enter node value: ");
@@ -37,9 +37,10 @@ public class BSTSort {
 			int a=sc.nextInt();
 			root=Insert(root,a);
 		}
-		System.out.println("After sorting the tree:");
+		System.out.print("After sorting the tree: ");
 		In_Order(root);
 
 	}
+	
 
 }
